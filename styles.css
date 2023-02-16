@@ -1,5 +1,62 @@
-h1{
-    font-size: 50px;
-    background-color: blueviolet;
+html{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header{
+    border-top: 15px solid rgb(10, 93, 65);
     width: 100%;
+    position: fixed;
+}
+.nav-header{
+    width: 94%;
+    margin: auto;
+}
+.float-right{
+    float: right;
+}
+.float-right ul{
+    display: flex;
+    background: rgb(10, 93, 65);
+    color: white;
+    padding: 0 1.2rem .4rem 1.2rem;
+    margin-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+ul li{
+    list-style: none;
+    margin: 0 .5rem;
+    line-height: 2;
+    font-style: italic;
+}
+ul li+li::before{
+    content: '/';
+    padding: 1rem;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    background-image: url("./resources/images/soccerfieldbackground.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 500px;
+}
+.content   {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: 0 2rem;
+    word-spacing: 3px;
 }
