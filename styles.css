@@ -9,7 +9,9 @@ body{
     padding: 0;
     text-align: center;
 }
-
+h1{
+    color: white;
+}
 /*header*/
 header{
     border-top: 15px solid rgb(10, 93, 65);
@@ -82,6 +84,10 @@ ul li+li::before{
     padding: 0 2rem;
     word-spacing: 3px;
 }
+/*quote*/
+.main-quote h1{
+    color: black;
+}
 @media only screen and (max-width: 480px){
     .banner{
         justify-content: center;
@@ -125,4 +131,23 @@ ul li+li::before{
         font-size: .7rem;
         padding: 2%;
     }
+}
+
+/*sub photos*/
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    background: rgb(27, 30, 29);
+}
+.sub-photos{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.sub-photos img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding-top: 1rem;
 }
