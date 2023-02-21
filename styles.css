@@ -84,10 +84,6 @@ ul li+li::before{
     padding: 0 2rem;
     word-spacing: 3px;
 }
-/*quote*/
-.main-quote h1{
-    color: black;
-}
 @media only screen and (max-width: 480px){
     .banner{
         justify-content: center;
@@ -98,7 +94,7 @@ ul li+li::before{
     }
 
 }
-
+/*main content*/
 .main-content{
     background: rgb(27, 30, 29);
     display: flex;
@@ -124,6 +120,12 @@ ul li+li::before{
     .photos{
         width: 90%;
     }
+}
+
+/*quote*/
+.main-quote h1{
+    color: black;
+    font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 480px){
